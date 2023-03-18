@@ -24,7 +24,8 @@ function Portfolio() {
             <br />● Enabled users to book and edit booking systems based on 50+
             mock airline tickets.
           </small>
-          <div className="portfolio__item-cta">
+
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa/Gbc-Airlines-Booking"
               className="btn"
@@ -32,14 +33,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
@@ -54,7 +47,7 @@ function Portfolio() {
             <br />● Enabled users to book and edit booking systems based on 20+
             mock addresses.
           </small>
-          <div className="portfolio__item-cta">
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa/Address-book-project"
               className="btn"
@@ -62,14 +55,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
@@ -85,7 +70,7 @@ function Portfolio() {
             <br />● Enabled users to book and edit booking systems based on 50+
             mock addresses.
           </small>
-          <div className="portfolio__item-cta">
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa/GBC-SportingTeam_Amigos"
               className="btn"
@@ -93,14 +78,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
@@ -115,7 +92,7 @@ function Portfolio() {
             <br />● Enabled users to book and edit booking systems based on 10+
             mock recipes.
           </small>
-          <div className="portfolio__item-cta">
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa/GBC-Recipe-App"
               className="btn"
@@ -123,14 +100,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
@@ -142,11 +111,10 @@ function Portfolio() {
           <h3 style={{ color: "#A63D40" }}>Employee Management System</h3>
           <small>
             ● A CRUD application system designed using Bootstrap.
-            <br />
-            ● Developed with <b>Nodejs</b> for the back-end and <b>React</b> for the
-            front-end.
+            <br />● Developed with <b>Nodejs</b> for the back-end and{" "}
+            <b>React</b> for the front-end.
           </small>
-          <div className="portfolio__item-cta">
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa/101331910_comp3123_assignment2_frontend"
               className="btn"
@@ -154,14 +122,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
@@ -172,11 +132,11 @@ function Portfolio() {
           </div>
           <h3 style={{ color: "#A63D40" }}>Food Finder Application</h3>
           <small>
-            ● Designed and built a CRUD application system using React
+            ● Designed and built a CRUD application system using ReactNative
             <br />● Enabled users to book and edit booking systems based on 15+
-            mock employees.
+            mock restaurants.
           </small>
-          <div className="portfolio__item-cta">
+          <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
               href="https://github.com/arusafa"
               className="btn"
@@ -184,14 +144,6 @@ function Portfolio() {
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://chimerical-sundae-5f133a.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live demo of Project
             </a>
           </div>
         </article>
