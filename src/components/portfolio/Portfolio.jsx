@@ -4,8 +4,8 @@ import IMG1 from "../../assets/gbc-airlines.png";
 import IMG2 from "../../assets/address-book.png";
 import IMG3 from "../../assets/gbc-sporting.png";
 import IMG4 from "../../assets/recipe-app.png";
-import IMG5 from "../../assets/img5.jpg";
-import IMG6 from "../../assets/img6.jpg";
+import IMG5 from "../../assets/employee-mng.jpeg";
+import IMG6 from "../../assets/food-finder.jpeg";
 
 function Portfolio() {
   return (
