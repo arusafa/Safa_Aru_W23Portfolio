@@ -13,7 +13,7 @@ import {
   TbHexagonNumber6,
   TbHexagonNumber7,
 } from "react-icons/tb";
-import {BsFillStarFill} from 'react-icons/bs'
+import { BsFillStarFill } from "react-icons/bs";
 
 import homePic from "../../assets/home-page.png";
 import featuresPic from "../../assets/features-page.png";
@@ -152,48 +152,50 @@ function Capstone() {
           <div className="portfolio__item-image"></div>
           <h3 style={{ color: "#A63D40" }}>System Implementation</h3>
           <small>
-            <TbHexagonNumber1 style={{scale:"1.5"}} /> &nbsp; React: React is a JavaScript library
-            used for building user interfaces. It allows developers to create
-            reusable UI components that can be used across different pages of a
-            web application. React also provides a way to manage the state of an
-            application, making it easier to keep track of changes to the UI and
-            respond to user interactions in real time.
+            <TbHexagonNumber1 style={{ scale: "1.5" }} /> &nbsp; React: React is
+            a JavaScript library used for building user interfaces. It allows
+            developers to create reusable UI components that can be used across
+            different pages of a web application. React also provides a way to
+            manage the state of an application, making it easier to keep track
+            of changes to the UI and respond to user interactions in real time.
             <br />
-            <TbHexagonNumber2 style={{scale:"1.5"}} /> &nbsp; JavaScript: JavaScript is a programming
-            language used to add interactivity and dynamic functionality to web
-            pages. It's used to manipulate the DOM (Document Object Model),
-            which is the structure that defines how web pages are displayed in a
-            browser.
+            <TbHexagonNumber2 style={{ scale: "1.5" }} /> &nbsp; JavaScript:
+            JavaScript is a programming language used to add interactivity and
+            dynamic functionality to web pages. It's used to manipulate the DOM
+            (Document Object Model), which is the structure that defines how web
+            pages are displayed in a browser.
             <br />
-            <TbHexagonNumber3 style={{scale:"1.5"}} /> &nbsp; Socket.io: Socket.io is a JavaScript
-            library used for real-time communication between a client and a
-            server. It's often used for building chat applications or
-            multiplayer games where users need to interact with each other in
-            real time
+            <TbHexagonNumber3 style={{ scale: "1.5" }} /> &nbsp; Socket.io:
+            Socket.io is a JavaScript library used for real-time communication
+            between a client and a server. It's often used for building chat
+            applications or multiplayer games where users need to interact with
+            each other in real time
             <br />
-            <TbHexagonNumber4 style={{scale:"1.5"}} /> &nbsp; O-auth: OAuth is an open standard for
-            authentication that allows users to log in to an application using
-            their credentials from another service, such as Google or Facebook.
-            This simplifies the authentication process and reduces the need for
-            users to remember multiple usernames and passwords.
+            <TbHexagonNumber4 style={{ scale: "1.5" }} /> &nbsp; O-auth: OAuth
+            is an open standard for authentication that allows users to log in
+            to an application using their credentials from another service, such
+            as Google or Facebook. This simplifies the authentication process
+            and reduces the need for users to remember multiple usernames and
+            passwords.
             <br />
-            <TbHexagonNumber5 style={{scale:"1.5"}} /> &nbsp; Mongo: MongoDB is a query language used
-            for APIs (Application Programming Interfaces). It allows clients to
-            specify the data they need, rather than the server dictating the
-            data that's returned. This can make API requests more efficient and
-            reduce the amount of data that needs to be transferred over the
-            network.
+            <TbHexagonNumber5 style={{ scale: "1.5" }} /> &nbsp; Mongo: MongoDB
+            is a query language used for APIs (Application Programming
+            Interfaces). It allows clients to specify the data they need, rather
+            than the server dictating the data that's returned. This can make
+            API requests more efficient and reduce the amount of data that needs
+            to be transferred over the network.
             <br />
-            <TbHexagonNumber6 style={{scale:"1.5"}} /> &nbsp; CSS: CSS (Cascading Style Sheets) is a
-            language used to describe the style and layout of web pages. It's
-            used to define the colors, fonts, and other visual elements of a web
-            page.
+            <TbHexagonNumber6 style={{ scale: "1.5" }} /> &nbsp; CSS: CSS
+            (Cascading Style Sheets) is a language used to describe the style
+            and layout of web pages. It's used to define the colors, fonts, and
+            other visual elements of a web page.
             <br />
-            <TbHexagonNumber7 style={{scale:"1.5"}}/> &nbsp; Bootstrap: Bootstrap is a popular
-            framework for building responsive web pages. It includes pre-built
-            CSS and JavaScript components that can be easily customized to fit
-            the design of a web application. It's often used to make sure that a
-            web page looks good on all devices, from desktops to mobile phones.
+            <TbHexagonNumber7 style={{ scale: "1.5" }} /> &nbsp; Bootstrap:
+            Bootstrap is a popular framework for building responsive web pages.
+            It includes pre-built CSS and JavaScript components that can be
+            easily customized to fit the design of a web application. It's often
+            used to make sure that a web page looks good on all devices, from
+            desktops to mobile phones.
           </small>
         </article>
 
@@ -202,35 +204,19 @@ function Capstone() {
           <h3 style={{ color: "#A63D40" }}>Mock-ups</h3>
           <small>
             <BsFillStarFill /> &nbsp; Home Page
-              <img
-                src={homePic}
-                alt="Sign Up Page"
-                style={{ width: "100%" }}
-              />
-              <br/>
-              <BsFillStarFill /> &nbsp; About Page
-              <img
-                src={aboutPic}
-                alt="Sign Up Page"
-                style={{ width: "100%" }}
-              />
-              <br/>
-              <BsFillStarFill /> &nbsp; Sign Up Page
-              <img
-                src={signUpPic}
-                alt="Sign Up Page"
-                style={{ width: "100%" }}
-              />
-              <br/>
-              <BsFillStarFill /> &nbsp; Features Page
-              <img
-                src={featuresPic}
-                alt="Sign Up Page"
-                style={{ width: "100%" }}
-              />
+            <img src={homePic} alt="Sign Up Page" style={{ width: "100%" }} />
+            <BsFillStarFill /> &nbsp; About Page
+            <img src={aboutPic} alt="Sign Up Page" style={{ width: "100%" }} />
+            <BsFillStarFill /> &nbsp; Sign Up Page
+            <img src={signUpPic} alt="Sign Up Page" style={{ width: "100%" }} />
+            <BsFillStarFill /> &nbsp; Features Page
+            <img
+              src={featuresPic}
+              alt="Sign Up Page"
+              style={{ width: "100%" }}
+            />
           </small>
         </article>
-
       </div>
     </section>
   );

@@ -12,9 +12,8 @@ function CoverLetter() {
         <div className="coverLetter__frontend">
           <div className="coverLetter__content">
             <article className="coverLetter__details">
-              <BsCheckCircleFill className="experience__icon" />
               <div>
-                <h4>Dear Hiring Manager</h4>
+                <h4>Dear Hiring Manager,</h4>
                 <small className="text-light">
                   I am writing to express my interest in the Front-End Developer
                   position at your company. With a strong passion for designing
