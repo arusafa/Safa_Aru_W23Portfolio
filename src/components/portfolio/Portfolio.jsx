@@ -138,7 +138,7 @@ function Portfolio() {
           </small>
           <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
-              href="https://github.com/arusafa"
+              href="https://github.com/arusafa/FoodFinder"
               className="btn"
               target="_blank"
               rel="noreferrer"
