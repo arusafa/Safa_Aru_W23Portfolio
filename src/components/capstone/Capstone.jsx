@@ -22,7 +22,7 @@ import aboutPic from "../../assets/about-page.png";
 
 function Capstone() {
   return (
-    <section id="portfolio">
+    <section id="capstone">
       <h5>My Capstone Work</h5>
       <h2>Online Tutoring Web</h2>
       <div className="container portfolio__container">
