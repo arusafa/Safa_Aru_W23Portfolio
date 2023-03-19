@@ -45,12 +45,12 @@ header{
 
 .me{
     background:linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
+    width: 30rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 10rem);
+    left: calc(45% - 10rem);
     margin-top: 4rem;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     border-radius: 6rem 6rem 0 0;
     box-shadow: 0 0 2rem var(--color-primary);
     overflow: hidden;
@@ -85,6 +85,7 @@ header{
     header{
         height: 100vh;
     }
+    
 }
 
 /* media queries for Small */
@@ -92,5 +93,8 @@ header{
 @media screen and (max-width: 600px){
     .header__socials, .scroll__down{
         display: flex;
+    }
+    .me{
+        max-width: 400px
     }
 }
