@@ -16,7 +16,7 @@ function Skills() {
             <article className="experience__details">
               <BsCheckCircleFill className="experience__icon" />
               <div>
-              <h4>HTML5</h4>
+              <h4>HTML / Bootstrap / CSS</h4>
               <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -24,7 +24,7 @@ function Skills() {
             <article className="experience__details">
               <BsCheckCircleFill className="experience__icon" />
               <div>
-              <h4>CSS</h4>
+              <h4>VueJs</h4>
               <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -40,7 +40,7 @@ function Skills() {
             <article className="experience__details">
               <BsCheckCircleFill className="experience__icon" />
               <div>
-              <h4>Bootstrap</h4>
+              <h4>.Net Core</h4>
               <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -85,15 +85,15 @@ function Skills() {
             <article className="experience__details">
               <BsCheckCircleFill className="experience__icon" />
               <div>
-              <h4>PHP</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>C#</h4>
+              <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
               <BsCheckCircleFill className="experience__icon" />
               <div>
-              <h4>MySQL</h4>
+              <h4>MySQL-SQL</h4>
               <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -103,6 +103,14 @@ function Skills() {
               <div>
               <h4>Python</h4>
               <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsCheckCircleFill className="experience__icon" />
+              <div>
+              <h4>GraphQL</h4>
+              <small className="text-light">Intermediate</small>
               </div>
             </article>
 

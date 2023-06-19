@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/gbc-airlines.png";
-import IMG2 from "../../assets/address-book.png";
+import IMG2 from "../../assets/olive-trees.png";
 import IMG3 from "../../assets/gbc-sporting.png";
 import IMG4 from "../../assets/recipe-app.png";
 import IMG5 from "../../assets/employee-mng.jpeg";
@@ -17,7 +17,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>Airlines Booking System</h3>
+          <h3 style={{ color: "#A63D40" }}>Airlines Booking System (C#)</h3>
           <small>
             ● Collaborated with a 3-person team to design and implement a
             user-friendly airport booking application in C#, adhering to
@@ -57,30 +57,34 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>Address Management System</h3>
+          <h3 style={{ color: "#A63D40" }}>Olive Trees (VueJs)</h3>
           <small>
-            ● Collaborated with a team to design and build a JavaFX-based CRUD
-            (Create, Read, Update, Delete) application system, following
-            software development best practices and agile methodologies.
-            <br />● Utilized JavaFX for front-end development, creating an
-            intuitive and visually appealing user interface that streamlined the
-            booking and editing processes.
-            <br />● Implemented back-end functionality using Java and JDBC for
-            database connectivity, managing user authentication, and handling
-            the CRUD operations with a MySQL database to ensure data integrity
-            and security.
-            <br />● Enabled users to search, book, and modify reservations from
-            a database of 20+ mock addresses, incorporating location details,
-            availability, and pricing information to provide a seamless user
-            experience.
-            <br />● Integrated input validation and error handling to improve
-            overall application reliability, leading to a more robust and
-            user-friendly system.
+            ● Developed a product detail page using the provided code template, 
+            which follows modern web development best practices and utilizes Vue.js framework.
+            <br />● Implemented a responsive and visually appealing user interface 
+            using HTML, CSS, and Vue.js components, with a focus on providing
+            an intuitive user experience.
+            <br />● Implemented back-end functionality using NodeJs and MongoDb for
+            database connectivity.
+            <br />● Integrated Firebase Authentication for user sign-up and login functionality,
+             leveraging the Firebase Auth API methods such as sendSignInLinkToEmail,
+              isSignInWithEmailLink, signInWithEmailLink, 
+              createUserWithEmailAndPassword, and signInWithEmailAndPassword.
+            <br />● Utilized Firebase's authentication features to send 
+            sign-in links via email, handle email verification, 
+            and authenticate users securely.
+            <br /> ● Implemented dynamic rendering of product details by 
+            making HTTP requests to the server API endpoints using the 
+            Axios library, specifically fetching data about the product 
+            being viewed and the user's cart items.
+            <br /> ● Hosted the Vue.js application on a web server, 
+            making it accessible to users for viewing and interacting 
+            with the product details and cart functionality.
             <br /> ● Utilized Git for version control and GitHub for project
           </small>
           <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
-              href="https://github.com/arusafa/Address-book-project"
+              href="https://github.com/arusafa/Safa_Aru_W23Portfolio"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -94,7 +98,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>GBC Sporting Management System</h3>
+          <h3 style={{ color: "#A63D40" }}>GBC Sporting Management System (.NetCore)</h3>
           <small>
             ● Collaborated with a 4-person team to design and implement a
             .NET-based CRUD (Create, Read, Update, Delete) application system,
