@@ -10,7 +10,7 @@ function Footer() {
   return (
     <footer id="footer">
       <a href="footer-logo" id="footer-logo" className="footer__logo">
-        Capstone Project - 2023
+        Safa - Portfolio - 2023
       </a>
       <ul className="permalinks">
         <li>
