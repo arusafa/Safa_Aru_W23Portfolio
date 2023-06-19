@@ -84,7 +84,7 @@ function Portfolio() {
           </small>
           <div style={{ marginTop: "1rem" }} className="portfolio__item-cta">
             <a
-              href="https://github.com/arusafa/Safa_Aru_W23Portfolio"
+              href="https://github.com/arusafa/Vue-Project"
               className="btn"
               target="_blank"
               rel="noreferrer"
