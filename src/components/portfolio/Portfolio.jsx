@@ -136,7 +136,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>GBC Recipe Management System</h3>
+          <h3 style={{ color: "#A63D40" }}>GBC Recipe Management System (Spring Boot)</h3>
           <small>
             ● Collaborated with a team to design and build a Spring Boot-based
             CRUD (Create, Read, Update, Delete) application system for managing
@@ -174,7 +174,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>Employee Management System</h3>
+          <h3 style={{ color: "#A63D40" }}>Employee Management System (NodeJs,MongoDb-React)</h3>
           <small>
             ● Collaborated with a team to design and develop a full-stack CRUD
             (Create, Read, Update, Delete) application system for managing
@@ -213,7 +213,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="portfolio item" />
           </div>
-          <h3 style={{ color: "#A63D40" }}>Food Finder Application</h3>
+          <h3 style={{ color: "#A63D40" }}>Food Finder Application (ReactNative-GoogleApi)</h3>
           <small>
             ● Collaborated with a team to design and develop a mobile CRUD
             (Create, Read, Update, Delete) application system for finding and
